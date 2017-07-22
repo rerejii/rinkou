@@ -1,5 +1,5 @@
 clear;
-img = imread('tutiusa.jpg');
+img = imread('hausa.jpg');
 [x,y,z] = size(img);
 r = img(:,:,1);
 g = img(:,:,2);
@@ -25,7 +25,6 @@ plot(histX,histData);
 ylabel('頻度'); %x軸ラベル
 xlabel('画素値'); %y軸ラ
 title('画素値ヒストグラフ');
-hid = histData';
 siti = 200;
 two_color = zeros(x,y);
 %two_color(gray>siti) = 255:

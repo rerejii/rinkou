@@ -1,0 +1,21 @@
+%-----初期化処理-----
+clear;
+%-----画像読み出し-----
+img = imread('usagi01.png');      %画像の読み込み
+[y,x,z] = size(img);              %画像のサイズ(y=縦座標,x=横座標,z=RGB)
+%-----RGB値の取り出し-----
+r = double(img(:,:,1));
+g = double(img(:,:,2));
+b = double(img(:,:,3));
+%-----グレースケール化-----
+gray = 0.3*r+0.59*g+0.11*b;
+%-----降順ソート-----
+sdata = sort(gray(:),'descend');
+%-----閾値設定-----
+siti = sdata(39000);
+%-----2値化処理-----
+two_color = zeros(y,x);
+two_color(gray>=siti) = 255;
+%-----画像表示-----
+figure(4);
+imshow(two_color);
