@@ -1,5 +1,5 @@
 clear;
-img = imread('tutiusa.jpg');
+img = imread('usagi01.png');
 [x,y,z] = size(img);
 r = img(:,:,1);
 g = img(:,:,2);
