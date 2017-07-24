@@ -80,43 +80,51 @@ for m=2:y+1
     end
 end
 
-renPoint = zeros(nextlabel-1,nextlabel-1);
 renVal = zeros(nextlabel-1,nextlabel-1);
 for k = 1 : nextlabel-1
     rpc = 1;
     rvc = 1;
     search = find(lookupTable == k);
-    for l = search;
-        if lookupTable(l) > k
-            if l <= length(lookupTable)/2
-                renPoint(k,rpc) = l+length(lookupTable)/2;
-            elseif l > length(lookupTable)/2
-                renPoint(k,rpc) = l-length(lookupTable)/2;
+    for l = search';
+        save = 1;
+        for m = 1:rvc-1
+            if renVal(m) == 0
+                break;
             end
-            save = 1;
-            for m = 1:rvc-1
-                if renVal(k,m) == lookUpTable(renPoint(k,rpc))
-                    save = 0;
-                    break;
-                end
+            if renVal(k,m) == lookupTable(l)
+                save = 0;
+                break;
             end
-            if save == 1
-                renVal(k,rvc) = lookUpTable(renPoint(k,rpc));
-                rvc = rvc + 1;
-            end
-            rpc = rpc + 1;
+        end
+        if save == 1
+            renVal(k,rvc) = lookupTable(l);
+            rvc = rvc + 1;
         end
     end
 end
 
-minVal = zeros(1,nextlabel-1);
-for k = 1 : nextlabel-1
-    if (minVal(k) == 0)
-        result = expansion(renVal,k);
-        for l = result
-            if minVal(l) == 0
-                minVal(l) = k;
+lookupTable2 = zeros(nextlabel-1,nextlabel-1);
+valSet = [1:nextlabel-1];
+exit = 1;
+while true
+    for k = 1 : nextlabel-1
+            min = valSet(k);
+        for m = 1 : nextlabel-1
+            if renVal(m) == 0
+                break;
+            end
+            if renVal(m) < min
+                min = renVal(m);
+                exit = 0;
+            end
+            if valSet(renVal(m)) < min
+                min = valSet(renVal(m));
+                exit = 0;
             end
         end
     end
+    if exit == 1
+        break
+    end
+    exit = 1;
 end
