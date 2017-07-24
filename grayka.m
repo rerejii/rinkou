@@ -19,6 +19,9 @@ imwrite(gray,'gureusagi01.png');
 [x,y] = size(gray);
 figure(2);
 histogram(gray);
+ylabel('頻度'); %x軸ラベル
+xlabel('画素値(5画素ごと)'); %y軸ラ
+title('画素値ヒストグラフ');
 figure(3);
 histX = [0:255];
 plot(histX,histData);
