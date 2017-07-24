@@ -112,7 +112,8 @@ end
 minVal = zeros(1,nextlabel-1);
 for k = 1 : nextlabel-1
     if (minVal(k) == 0)
-        result = expansion(renVal,k);
+        result = []
+        result = expansion(renVal,k,result);
         for l = result
             if minVal(l) == 0
                 minVal(l) = k;
