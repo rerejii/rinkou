@@ -1,5 +1,5 @@
 clear;
-img = imread('tutiusa.jpg');
+img = imread('usagi01.png');
 [x,y,z] = size(img);
 r = img(:,:,1);
 g = img(:,:,2);
@@ -18,9 +18,10 @@ imshow(gray);
 %imwrite(gray,'gureusagi01.png');
 [x,y] = size(gray);
 figure(2);
-histogram(gray);
+histogram(gray,255);
+%histogram(gray,50);
 ylabel('頻度'); %x軸ラベル
-xlabel('画素値(5画素ごと)'); %y軸ラ
+xlabel('画素値'); %y軸ラ
 title('画素値ヒストグラフ');
 figure(3);
 histX = [0:255];
