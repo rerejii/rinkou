@@ -1,5 +1,5 @@
 clear;
-img = imread('usagi01.png');
+img = imread('tutiusa.jpg');
 [x,y,z] = size(img);
 r = img(:,:,1);
 g = img(:,:,2);
@@ -15,7 +15,7 @@ end
 
 figure(1);
 imshow(gray);
-imwrite(gray,'gureusagi01.png');
+%imwrite(gray,'gureusagi01.png');
 [x,y] = size(gray);
 figure(2);
 histogram(gray);
