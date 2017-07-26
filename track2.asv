@@ -12,7 +12,7 @@
 %-----初期化処理-----
 clear;
 %-----画像読み出し-----
-im = imread('two_mohu.png');         %画像の読み込み
+im = imread('two_kageusa.png');         %画像の読み込み
 [y,x,z] = size(im);                 %画像のサイズ(y=縦座標,x=横座標,z=RGB)
 %-----画像周辺に画素追加-----
 img = uint8(ones(y+2,x+2).*255);    %画像より一回り大きい白(255)配列作成
@@ -83,7 +83,7 @@ end
 figure(5);
 result=ones(y+2,x+2);
 %result=tracked*255;
-result=(result-tracked)*255;
+result=
 resultImg=result(2:y-1,2:x-1);
 imshow(resultImg);
-imwrite(resultImg,'track2.png');
+imwrite(resultImg,'track.png');

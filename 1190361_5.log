@@ -1,0 +1,277 @@
+This is e-pTeX, Version 3.14159265-p3.7-160201-2.6 (sjis) (TeX Live 2016/W32TeX) (preloaded format=platex 2017.5.26)  26 JUL 2017 09:28
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**./1190361_5.tex
+(./1190361_5.tex
+pLaTeX2e <2016/11/29> (based on LaTeX2e <2017/01/01> patch level 3)
+Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
+(c:/texlive/2016/texmf-dist/tex/platex/base/jarticle.cls
+Document Class: jarticle 2016/11/22 v1.7b Standard pLaTeX class
+\c@@paper=\count82
+(c:/texlive/2016/texmf-dist/tex/platex/base/jsize10.clo
+File: jsize10.clo 2016/11/22 v1.7b Standard pLaTeX file (size option)
+)
+\c@part=\count83
+\c@section=\count84
+\c@subsection=\count85
+\c@subsubsection=\count86
+\c@paragraph=\count87
+\c@subparagraph=\count88
+\c@figure=\count89
+\c@table=\count90
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\symmincho=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `mincho' in version `bold'
+(Font)                  JY1/mc/m/n --> JY1/gt/m/n on input line 579.
+\toclineskip=\dimen118
+\@lnumwidth=\dimen119
+\bibindent=\dimen120
+\heisei=\count91
+)
+(c:/texlive/2016/texmf-dist/tex/latex/listings/listings.sty
+(c:/texlive/2016/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+\lst@mode=\count92
+\lst@gtempboxa=\box41
+\lst@token=\toks16
+\lst@length=\count93
+\lst@currlwidth=\dimen121
+\lst@column=\count94
+\lst@pos=\count95
+\lst@lostspace=\dimen122
+\lst@width=\dimen123
+\lst@newlines=\count96
+\lst@lineno=\count97
+\lst@maxwidth=\dimen124
+
+(c:/texlive/2016/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+\c@lstnumber=\count98
+\lst@skipnumbers=\count99
+\lst@framebox=\box42
+)
+(c:/texlive/2016/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2015/06/04 1.6 listings configuration
+))
+Package: listings 2015/06/04 1.6 (Carsten Heinz)
+
+(c:/texlive/texmf-local/tex/latex/jlisting/jlisting.sty
+Package: jlisting 2006/02/20 0.2 (Thor)
+\lst@nextchar=\count100
+\lst@inputfile=\read1
+)
+(c:/texlive/2016/texmf-dist/tex/latex/fancybox/fancybox.sty
+Package: fancybox 2010/05/15 1.4
+
+Style option: `fancybox' v1.4 <2010/05/15> (tvz)
+\@fancybox=\box43
+\shadowsize=\dimen125
+\@Sbox=\box44
+\do@VerbBox=\toks17
+\the@fancyput=\toks18
+\this@fancyput=\toks19
+\EndVerbatimTokens=\toks20
+\Verbatim@Outfile=\write3
+\Verbatim@Infile=\read2
+) (c:/texlive/2016/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(c:/texlive/2016/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2016/10/09 v1.0u Standard LaTeX Graphics (DPC,SPQR)
+
+(c:/texlive/2016/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(c:/texlive/2016/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: dvipdfmx.def on input line 99.
+
+(c:/texlive/2016/texmf-dist/tex/latex/graphics-def/dvipdfmx.def
+File: dvipdfmx.def 2016/07/11 v4.12 LaTeX color/graphics driver for dvipdfmx (L
+3/ChoF)
+))
+\Gin@req@height=\dimen126
+\Gin@req@width=\dimen127
+)
+(./epsbox.sty
+EPSbox version 1.6 - Released May 5, 1992 (for LaTeX/jdvi2kps2.1)
+Based on EPSF macro package. version 1.2 - Released July 16, 1990
+\@darg=\dimen128
+\eps@xdim=\dimen129
+\eps@ydim=\dimen130
+\eps@width=\dimen131
+\eps@height=\dimen132
+\eps@tempdima=\dimen133
+\eps@tempdimb=\dimen134
+\eps@cnta=\count101
+\eps@cntb=\count102
+\eps@cntc=\count103
+\eps@cntd=\count104
+\ps@stream=\read3
+) (c:/texlive/2016/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+(c:/texlive/2016/texmf-dist/tex/latex/here/here.sty)
+(c:/texlive/2016/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count105
+\float@exts=\toks21
+\float@box=\box45
+\@float@everytoks=\toks22
+\@floatcapt=\box46
+)
+(c:/texlive/2016/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+
+(c:/texlive/2016/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 67.
+\captionmargin=\dimen135
+\captionmargin@=\dimen136
+\captionwidth=\dimen137
+\caption@tempdima=\dimen138
+\caption@indent=\dimen139
+\caption@parindent=\dimen140
+\caption@hangindent=\dimen141
+Package caption Info: Unknown document class (or package),
+(caption)             standard defaults will be used.
+)
+
+Package caption Warning: Unsupported document class (or package) detected,
+(caption)                usage of the caption package is not recommended.
+See the caption package documentation for explanation.
+
+Package caption Info: \@makecaption = \long macro:#1#2->\vskip \abovecaptionski
+p \iftdir \sbox \@tempboxa {#1\hskip 1zw#2}\else \sbox \@tempboxa {#1: #2}\fi \
+ifdim \wd \@tempboxa >\hsize \iftdir #1\hskip 1zw#2\relax \par \else #1: #2\rel
+ax \par \fi \else \global \@minipagefalse \hb@xt@ \hsize {\hfil \box \@tempboxa
+ \hfil }\fi \vskip \belowcaptionskip .
+\c@ContinuedFloat=\count106
+Package caption Info: float package is loaded.
+Package caption Info: listings package is loaded.
+) (c:/texlive/2016/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2016/05/22 v1.1-161 Sub-captions (AR)
+\c@subfigure=\count107
+\c@subtable=\count108
+)
+(./1190361_5.aux)
+\openout1 = `1190361_5.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+\c@lstlisting=\count109
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <17.28> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 46.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <17.28> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 46.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 46.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 46.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 46.
+ [1
+
+]
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <14.4> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 52.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <14.4> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 52.
+ [2] [3] [4] [5]
+Overfull \hbox (3.02542pt too wide) in paragraph at lines 265--265
+[]                  \OT1/cmtt/m/n/10 elseif entryDirection(boxY,boxX) == entryC
+ode(mod(k+nextEntry,modVal)+1)[] 
+ []
+
+[6] [7] [8] [9]
+Overfull \hbox (92.27464pt too wide) in paragraph at lines 563--563
+[]                  \OT1/cmtt/m/n/10 if label(m+searchY(k),n+searchX(k)) ~= 0 &
+ label(m+searchY(k),n+searchX(k)) ~= label(m,n)[] 
+ []
+
+
+Overfull \hbox (50.27501pt too wide) in paragraph at lines 563--563
+[]                  \OT1/cmtt/m/n/10 lookupTable = updataLUT(lookupTable,label(
+m,n),label(m+searchY(k),n+searchX(k)));[] 
+ []
+
+
+Overfull \hbox (291.7729pt too wide) in paragraph at lines 563--563
+[]              \OT1/cmtt/m/n/10 if label(m+searchY(3),n+searchX(3)) ~= 0 & img
+(m+searchY(6),n+searchX(6)) == white & label(m+searchY(k),n+searchX(k)) ~= labe
+l(m,n)[] 
+ []
+
+
+Overfull \hbox (50.27501pt too wide) in paragraph at lines 563--563
+[]                  \OT1/cmtt/m/n/10 lookupTable = updataLUT(lookupTable,label(
+m,n),label(m+searchY(3),n+searchX(3)));[] 
+ []
+
+
+Overfull \hbox (29.27519pt too wide) in paragraph at lines 563--563
+[]              \OT1/cmtt/m/n/10 lookupTable = updataLUT(lookupTable,label(m,n)
+,label(m+searchY(4),n+searchX(4)));[] 
+ []
+
+[10] [11] [12] [13]
+Overfull \hbox (344.27245pt too wide) in paragraph at lines 686--686
+[]              \OT1/cmtt/m/n/10 if searchData(m+searchY(2),n+searchX(2))==blac
+k & searchData(m+searchY(4),n+searchX(4))==black & searchData(m+searchY(6),n+se
+archX(6))==black[] 
+ []
+
+
+Overfull \hbox (344.27245pt too wide) in paragraph at lines 686--686
+[]              \OT1/cmtt/m/n/10 if searchData(m+searchY(4),n+searchX(4))==blac
+k & searchData(m+searchY(6),n+searchX(6))==black & searchData(m+searchY(8),n+se
+archX(8))==black[] 
+ []
+
+[14]
+Overfull \hbox (344.27245pt too wide) in paragraph at lines 686--686
+[]              \OT1/cmtt/m/n/10 if searchData(m+searchY(2),n+searchX(2))==blac
+k & searchData(m+searchY(4),n+searchX(4))==black & searchData(m+searchY(8),n+se
+archX(8))==black[] 
+ []
+
+
+Overfull \hbox (344.27245pt too wide) in paragraph at lines 686--686
+[]              \OT1/cmtt/m/n/10 if searchData(m+searchY(2),n+searchX(2))==blac
+k & searchData(m+searchY(6),n+searchX(6))==black & searchData(m+searchY(8),n+se
+archX(8))==black[] 
+ []
+
+[15] [16] (./1190361_5.aux) ) 
+Here is how much of TeX's memory you used:
+ 3377 strings out of 493683
+ 50628 string characters out of 6152642
+ 127826 words of memory out of 5000000
+ 6954 multiletter control sequences out of 15000+600000
+ 14026 words of font info for 55 fonts, out of 8000000 for 9000
+ 929 hyphenation exceptions out of 8191
+ 36i,7n,38p,240b,315s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on 1190361_5.dvi (16 pages, 25228 bytes).

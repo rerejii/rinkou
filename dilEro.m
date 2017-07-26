@@ -11,9 +11,9 @@ im = imread('inp.png');         %画像の読み込み
 [y,x,z] = size(im);                 %画像のサイズ(y=縦座標,x=横座標,z=RGB)
 im = erosion(im);
 im = dilation(im);
-
 im = dilation(im);
 im = erosion(im);
 figure(5);
 imshow(im);
+imwrite(im,'opclo.png');
 

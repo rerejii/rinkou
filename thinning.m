@@ -76,3 +76,4 @@ while true
 end
 
 imshow(searchData);
+imwrite(searchData,'thinninged.png')

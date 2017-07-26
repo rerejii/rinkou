@@ -40,14 +40,18 @@ for m=2:y+1
             end
         end
         if label(m,n) ~= 0
+            foK = [2,3,4];
             for k = [2,3,4]%上と右上と左
                 if label(m+searchY(k),n+searchX(k)) ~= 0 & label(m+searchY(k),n+searchX(k)) ~= label(m,n)
-                %-----lookpuTable更新-----
+                %lookpuTable更新----------------------------------
                 lookupTable = updataLUT(lookupTable,label(m,n),label(m+searchY(k),n+searchX(k)));
+                    if label(m,n) < label(m+searchY(k),n+searchX(k))
+                        lookupTable;
+                    end
                 end
             end
-            if label(m+searchY(3),n+searchX(3)) ~= 0 & img(m+searchY(6),n+searchX(6)) == white & label(m+searchY(k),n+searchX(k)) ~= label(m,n)
-                %-----lookpuTable更新-----
+            if label(m+searchY(3),n+searchX(3)) ~= 0 & img(m+searchY(3),n+searchX(3)) == white & label(m+searchY(k),n+searchX(k)) ~= label(m,n)
+                %lookpuTable更新----------------------------------
                 lookupTable = updataLUT(lookupTable,label(m,n),label(m+searchY(3),n+searchX(3)));
             end
             pretrue = 1;
@@ -168,4 +172,3 @@ end
 
 resultImg = hsv2rgb(result);
 imshow(resultImg);
-imwrite(resultImg,'labelinged.png');

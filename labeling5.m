@@ -33,23 +33,21 @@ for m=2:y+1
         for k = [1,2]%左上と上
             if label(m+searchY(k),n+searchX(k)) ~= 0
                 label(m,n) = label(m+searchY(k),n+searchX(k));
-                if label(m,n) == 0
+                if label(m,n) == 0 & 
                     label(m+searchY(k),n+searchX(k))
                 end
                 break;
             end
         end
         if label(m,n) ~= 0
+        %if true;
             for k = [2,3,4]%上と右上と左
                 if label(m+searchY(k),n+searchX(k)) ~= 0 & label(m+searchY(k),n+searchX(k)) ~= label(m,n)
-                %-----lookpuTable更新-----
+                %lookpuTable更新----------------------------------
                 lookupTable = updataLUT(lookupTable,label(m,n),label(m+searchY(k),n+searchX(k)));
                 end
             end
-            if label(m+searchY(3),n+searchX(3)) ~= 0 & img(m+searchY(6),n+searchX(6)) == white & label(m+searchY(k),n+searchX(k)) ~= label(m,n)
-                %-----lookpuTable更新-----
-                lookupTable = updataLUT(lookupTable,label(m,n),label(m+searchY(3),n+searchX(3)));
-            end
+            
             pretrue = 1;
             for k = [1,2]%左上と上
                 if img(m+searchY(k),n+searchX(k)) ~= white
@@ -62,6 +60,10 @@ for m=2:y+1
             lookupTable = updataLUT(lookupTable,label(m,n),label(m+searchY(4),n+searchX(4)));
             end
         end
+        if label(m+searchY(3),n+searchX(3)) ~= 0 & img(m+searchY(6),n+searchX(6)) == white & label(m+searchY(k),n+searchX(k)) ~= label(m,n)
+            %lookpuTable更新----------------------------------
+            label(m,n)= label(m+searchY(3),n+searchX(3));
+        end
         pretrue = 1;
         for k = [1,2]%左上と上と左
             if img(m+searchY(k),n+searchX(k)) ~= white
@@ -70,6 +72,9 @@ for m=2:y+1
             end
         end
         if pretrue == 1
+            if img(m+searchY(4),n+searchX(4)) ~= white
+                img(m+searchY(4),n+searchX(4))
+            end
             label(m,n) = nextlabel;
             nextlabel = 1+nextlabel;
         end
@@ -168,4 +173,3 @@ end
 
 resultImg = hsv2rgb(result);
 imshow(resultImg);
-imwrite(resultImg,'labelinged.png');
